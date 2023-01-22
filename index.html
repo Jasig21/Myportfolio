@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Yasmine | Géomaticienne</title>
         <!-- Favicon-->
         <link rel="icon" type="" href="assets/img/icon.png" type="image/x-icon"/>
@@ -15,6 +15,8 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/template.css" rel="stylesheet" />
+
         <!-- Leaflet-->
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
         integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
@@ -80,8 +82,22 @@
         </div>
       
         
-        
-        
+        <!------Mobile Nav---------->   
+        <nav role="navigation">
+            <div id="menuToggle">
+            <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menuMobile">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Info</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+
         
         <!-- Masthead-->
         <header class="masthead" id="about">
@@ -90,7 +106,7 @@
                     <div class="col-lg-10 align-self-start">
                         <h1 class="text-white">
                             <span class="text-slider-items">
-                               Quand des coordonnées se joignent à des variables...
+                               Quand des coordonnées géographiques se joignent à des variables...
                             </span>
                             <strong class="text-slider"></strong>
                         </h1>
@@ -117,131 +133,146 @@
             </div>
         </header>
         <!-- A PROPOS-->
+
         <section class="page-section bg-primary" id="skills">
-              <canvas width="700" height="500" id="myCanvas" class="align-self-end">
-                <ul>
-                  <li><a class="outils" style="color: antiquewhite">HTML5</a></li>
-                  <li><a>CSS3</a></li>
-                  <li><a>Charts.js</a></li>
-                  <li><a>Javascript</a></li>
-                  <li><a>Jquery</a></li>
-                  <li><a>Sql</a></li>
-                  <li><a>Php</a></li>
-                  <li><a>R</a></li>
-                  <li><a>Leaflet</a></li>
-                  <li><a>Git</a></li>
-                  <li><a>Python</a></li>
-                  <li><a>Bootstrap</a></li>
-                  <li><a>Openlayers</a></li>
-                  <li><a>Folium</a></li>
-                  <li><a>QGIS</a></li>
-                  <li><a>ArcGIS</a></li>
-                  <li><a>Adobe Premiere</a></li>
-                  <li><a>Adobe Illustrator</a></li>
-                  <li><a>Django</a></li>
-                  <li><a>Json</a></li>
-                  <li><a>FME</a></li>
-                  <li><a>Geoconcept</a></li>
-                </ul>
-              </canvas>
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Hello world</h1>
+                </div>
+                <div class="col-md-6">
+                    <canvas width="700" height="500" id="myCanvas" class="align-self-end">
+                        <ul>
+                          <li><a class="outils" style="color: antiquewhite">HTML5</a></li>
+                          <li><a>CSS3</a></li>
+                          <li><a>Charts.js</a></li>
+                          <li><a>Javascript</a></li>
+                          <li><a>Jquery</a></li>
+                          <li><a>Sql</a></li>
+                          <li><a>Php</a></li>
+                          <li><a>R</a></li>
+                          <li><a>Leaflet</a></li>
+                          <li><a>Git</a></li>
+                          <li><a>Python</a></li>
+                          <li><a>Bootstrap</a></li>
+                          <li><a>OpenLayers</a></li>
+                          <li><a>Folium</a></li>
+                          <li><a>QGIS</a></li>
+                          <li><a>ArcGIS</a></li>
+                          <li><a>Adobe Premiere</a></li>
+                          <li><a>Adobe Illustrator</a></li>
+                          <li><a>Django</a></li>
+                          <li><a>Json</a></li>
+                          <li><a>FME</a></li>
+                          <li><a>Geoconcept</a></li>
+                        </ul>
+                      </canvas>
+                </div>
+            </div>
         </section>
         <!-- Parcours-->
         <section class="mapcontainer" id="journey">
-            <div id="map" class="map"></div>
-            <div class="timeline">
-                <div class="vtl">
-                    <div class="event">
-                        <p class="date">2021-2023</p>
-                        <p class="txt">
-                            <b>Master Géomatique, Géodécisionnel, Géomarketing et Multimédia (En cours)</b><br>
-                            Université Paris 8
-                        </p><br>
-
-                        <p class="txt">
-                            <b>Apprentie géomaticienne</b><br>
-                            Secteur SIG - Région Hauts-de-France 
-                        </p>
-                    </div>
-
-                    <div class="event">
-                        <p class="date">Septembre 2021</p>
-                        <p class="txt">
-                            <b>Soutien scolaire en auto-entreprise</b><br>
-                            LILABY x ASCLC - Poissy
-                        </p>
-                    </div>
-
-                    <div class="event">
-                        <p class="date">Juin 2021</p>
-                        <p class="txt">
-                            <b>Serveuse en restauration</b><br>
-                            Rotisserie O - Cergy
-                        </p>
-                    </div>
-
-                    <div class="event">
-                        <p class="date">2020-2021</p>
-                        <p class="txt">
-                            <b>Licence 3 Géographie et aménagement du territoire</b>
-                            Sorbonne Université - Paris 4
-                        </p>
-                    </div>
-                    
-                    <div class="event">
-                        <p class="date">Octobre 2020</p>
-                        <p class="txt">
-                            <b>Soutien scolaire et aide aux devoirs</b><br>
-                            Particuliers</p>
-                    </div>
-
-                    <div class="event">
-                        <p class="date">Aout 2020</p>
-                        <p class="txt">
-                            <b>Formation en marketing</b><br>
-                            Institut Supérieur de la Formation et de la Communication - Tizi Ouzou - Algérie
-                        </p>
-                    </div>
-
-                    <div class="event">
-                        <p class="date">Juillet 2019</p>
-                        <p class="txt">
-                            <b>Commercial et promotion des ventes</b><br>
-                            Ifruit (boisson gazeuse), Néscafé
-                        </p>
-                    </div>
-
-                    <div class="event">
-                        <p class="date">2019-2020</p>
-                        <p class="txt">
-                            <b>Licence 3 Géographie et aménagement du territoire</b>
-                            Université des Sciences et de la Technologie Houari BOUMEDIENE - Algérie
-                        </p>
-                    </div>
-
-                    <div class="event">
-                        <p class="date">Juin 2018</p>
-                        <p class="txt">
-                            <b>Equipière polyvalente en lounge</b><br>
-                            Restauration rapide S’mayli (Algérie)
-                        </p>
-                    </div>
-
-                    <div class="event">
-                        <p class="date">Avril 2018</p>
-                        <p class="txt">
-                            <b>Diplôme approfondi de la langue française DALF C1</b>
-                            Centre international d’études pédagogiques - Alger
-                        </p>
-                    </div>
-                    <div class="event">
-                        <p class="date">Juillet 2017</p>
-                        <p class="txt">
-                            <b>Diplome du Baccalaureatsérie sciences expériementales</b>
-                            Lycée Si Hacene Outaleb – Tizi Ouzou - Algérie
-                        </p>
+            <div class="row mapcontainer">
+                <div class="col-md-6 relativeCol">
+                    <div class="timeline">
+                        <div class="vtl">
+                            <div class="event">
+                                <p class="date">2021-2023</p>
+                                <p class="txt">
+                                    <b>Master Géomatique, Géodécisionnel, Géomarketing et Multimédia (En cours)</b><br>
+                                    Université Paris 8
+                                </p><br>
+        
+                                <p class="txt">
+                                    <b>Apprentie géomaticienne</b><br>
+                                    Secteur SIG - Région Hauts-de-France 
+                                </p>
+                            </div>
+        
+                            <div class="event">
+                                <p class="date">Septembre 2021</p>
+                                <p class="txt">
+                                    <b>Soutien scolaire en auto-entreprise</b><br>
+                                    LILABY x ASCLC - Poissy
+                                </p>
+                            </div>
+        
+                            <div class="event">
+                                <p class="date">Juin 2021</p>
+                                <p class="txt">
+                                    <b>Serveuse en restauration</b><br>
+                                    Rotisserie O - Cergy
+                                </p>
+                            </div>
+        
+                            <div class="event">
+                                <p class="date">2020-2021</p>
+                                <p class="txt">
+                                    <b>Licence 3 Géographie et aménagement du territoire</b>
+                                    Sorbonne Université - Paris 4
+                                </p>
+                            </div>
+                            
+                            <div class="event">
+                                <p class="date">Octobre 2020</p>
+                                <p class="txt">
+                                    <b>Soutien scolaire et aide aux devoirs</b><br>
+                                    Particuliers</p>
+                            </div>
+        
+                            <div class="event">
+                                <p class="date">Aout 2020</p>
+                                <p class="txt">
+                                    <b>Formation en marketing</b><br>
+                                    Institut Supérieur de la Formation et de la Communication - Tizi Ouzou - Algérie
+                                </p>
+                            </div>
+        
+                            <div class="event">
+                                <p class="date">Juillet 2019</p>
+                                <p class="txt">
+                                    <b>Commercial et promotion des ventes</b><br>
+                                    Ifruit (boisson gazeuse), Néscafé
+                                </p>
+                            </div>
+        
+                            <div class="event">
+                                <p class="date">2019-2020</p>
+                                <p class="txt">
+                                    <b>Licence 3 Géographie et aménagement du territoire</b>
+                                    Université des Sciences et de la Technologie Houari BOUMEDIENE - Algérie
+                                </p>
+                            </div>
+        
+                            <div class="event">
+                                <p class="date">Juin 2018</p>
+                                <p class="txt">
+                                    <b>Equipière polyvalente en lounge</b><br>
+                                    Restauration rapide S’mayli (Algérie)
+                                </p>
+                            </div>
+        
+                            <div class="event">
+                                <p class="date">Avril 2018</p>
+                                <p class="txt">
+                                    <b>Diplôme approfondi de la langue française DALF C1</b>
+                                    Centre international d’études pédagogiques - Alger
+                                </p>
+                            </div>
+                            <div class="event">
+                                <p class="date">Juillet 2017</p>
+                                <p class="txt">
+                                    <b>Diplome du Baccalaureatsérie sciences expériementales</b>
+                                    Lycée Si Hacene Outaleb – Tizi Ouzou - Algérie
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <div id="map" class="map"></div>
+                </div>
             </div>
+        </section>
         <!-- PRPJETS-->
         <div id="portfolio">
             <div class="container-fluid p-0">
@@ -557,7 +588,12 @@ legend.onAdd = function (map) {
     map.addLayer(entreprenariat);
     map.addLayer(jobetudiant);
            
-
+    var scrollEventHandler = function()
+    {
+      window.scroll(0, window.pageYOffset)
+    }
+    
+    window.addEventListener("scroll", scrollEventHandler, false);
 
         </script>
         

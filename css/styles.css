@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
 html {
   height: 100%;
   scroll-padding-top: calc(4.5rem - 1px);
@@ -537,4 +539,33 @@ nav{
   -webkit-backdrop-filter: blur( 14.5px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.logo{
+  width: 12vw;
+  height: 8vh;
+}
+
+.navbar{
+  background: rgba( 6, 97, 115, 1 ) !important;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0rem !important;
+}
+
+.presentation{
+  font-family: "IBM Plex Mono" , arial;
+  font-size: 20px;
+  margin-left: 10%;
+  text-align: center;
+  margin-top: 10%;
 }

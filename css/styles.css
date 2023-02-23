@@ -521,6 +521,10 @@ div.event::after {
   nav {
     display: none !important;
   }
+
+  .presentation{
+    margin-left: 10%;
+  }
 }
 
 @media screen and (max-width: 770px) { 
@@ -565,7 +569,16 @@ nav{
 .presentation{
   font-family: "IBM Plex Mono" , arial;
   font-size: 20px;
-  margin-left: 10%;
+  margin: 10%;
   text-align: center;
   margin-top: 10%;
+  color:rgba(0, 0, 0, 0.55);
+}
+
+.whiteText{
+  color: white !important;
+}
+
+.selectedText{
+  color: #de421a !important;
 }

@@ -270,7 +270,7 @@ h1 {
 .wrapper{
   font-size: 1.5em;
   position: fixed;
-  z-index: 100000;
+  z-index: 1000;
   height: 100%;
   background: rgba( 6, 97, 115, 0.15 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -581,4 +581,8 @@ nav{
 
 .selectedText{
   color: #de421a !important;
+}
+
+.slbElement {
+  display: none;
 }

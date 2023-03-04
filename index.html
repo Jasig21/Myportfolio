@@ -14,7 +14,7 @@
         <!-- SimpleLightbox plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" /> 
         <link href="css/template.css" rel="stylesheet" />
 
         <!-- Leaflet-->
@@ -297,11 +297,11 @@
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" title="Project Name" data-bs-toggle="modal" data-bs-target="#modal1">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
+                        <a class="portfolio-box" title="Python API" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <img class="img-fluid" src="assets/img/pythonProj.png" alt="Projet Python API Velib" />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category text-white-50">Mini  projet</div>
+                                <div class="project-name">Application Velib' en Python</div>
                             </div>
                         </a>
                     </div>
@@ -311,17 +311,26 @@
                         <div class="modal-dialog modal-fullscreen">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">Application Velib'</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="container-fluid">
                                         <div class="row">
                                         <div class="col-md-8">
-                                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                                            <img class="img-fluid" src="assets/img/catalogue.png" alt="Catalogue de données" />
                                         </div>
                                         <div class="col-md-4">
-                                            Explications 
+                                            Cette mini application a été réalisée suite à l'initiation à la programmation en python
+                                            lors de la première année de Matser de géomatique. Le but de cet exercice était de récupérer des 
+                                            données relatives aux vélos de location Velib'. 
+                                            Pour cela, il a fallu dans un premier temps se connecter à l'API mise à disposion par Velib' afin de recevoir les 
+                                            données en temps réél. Ensuite vient l'étape de manipulation de données, c'est à cette étape qu'on se rend véritablement 
+                                            compte de la puissance de Python. En effet, grace à la structure de données en "data frame" proposée par le language, 
+                                            j'ai pu restructurer les données brutes de Velib' pour les réinjecter à la librairie Folium afin de les représenter spatialement 
+                                            avec des popups informatifs. Enfin, pour une meilleure expérience utilisateur, la carte finale est sauvegardée sous format HTML avec un nom de fichier indiquant 
+                                            la date et l'heure de l'appel à l'API Velib'.
+                                
                                         </div>
                                         </div>
                                     </div>
@@ -333,11 +342,11 @@
 
 
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" title="Project Name" data-bs-toggle="modal" data-bs-target="#modal2">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                        <a class="portfolio-box" title="OpenLayers" data-bs-toggle="modal" data-bs-target="#modal2">
+                            <img class="img-fluid" src="assets/img/ol.png" alt="Projet OpenLayers en Webmapping 2.0" />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category text-white-50">Projet  d'alternance</div>
+                                <div class="project-name">Webmapping 2.0 en OpenLayers</div>
                             </div>
                         </a>
                     </div>
@@ -347,17 +356,27 @@
                         <div class="modal-dialog modal-fullscreen">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">La cartographie contributive</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="container-fluid">
                                         <div class="row">
                                         <div class="col-md-8">
-                                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                                            <img class="img-fluid" src="assets/img/olscreen.JPG" alt="..." />
                                         </div>
                                         <div class="col-md-4">
-                                            Explications 
+                                            Ce projet est encore en cours, mais je tiens à l'intégrer à ce portfolio au vue des enjeux qu'il 
+                                            présente dans le domaine de la géomatique. Après avoir travaillé sur un CRUD en M1, je suis ravie de 
+                                            compléter ce panel de compétences avec une thématique aussi importante qu'est le webmapping 2.0. 
+                                            La cartographiue contributive est selon moi le pilier majeur de la géographie moderne. Pour ce projet, j'ai
+                                            donc pour ambition de créer une application web qui permette aux utilisateurs de créer leurs propres cartes. 
+                                            L'objectif ici n'est pas de créer un SIG, mais plutot un outil simple et à la portée de tous qui permetterait 
+                                            de délimiter des zones, de mesurer des trançons ou des surfaces, de localiser des entités sur le port et de pourvoir
+                                            également exporter le résultat final sous différents formats en respectant la charte graphique de la Région des 
+                                            Hauts-de-France. Pour réaliser ce deuxième projet d'alternance j'ai décidé de m'attaquer au JavaScript moderne, notamment NodeJS couplé à la librairie OpenLayers pour approfondir mes 
+                                            notions de POO et mieux structurer mon travail. 
+                
                                         </div>
                                         </div>
                                     </div>
@@ -368,11 +387,11 @@
 
 
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" title="Project Name" data-bs-toggle="modal" data-bs-target="#modal3">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
+                        <a class="portfolio-box" title="JavaScript" data-bs-toggle="modal" data-bs-target="#modal3">
+                            <img class="img-fluid" src="assets/img/quiz.png" alt="Quiz en JavaScript" />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category text-white-50">Mini  projet</div>
+                                <div class="project-name">Quiz en JavaScript</div>
                             </div>
                         </a>
                     </div>
@@ -382,17 +401,22 @@
                         <div class="modal-dialog modal-fullscreen">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">Quiz en JavaScript</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="container-fluid">
                                         <div class="row">
                                         <div class="col-md-8">
-                                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                                            <img class="img-fluid" src="assets/img/quizscreen.JPG" alt="..." />
                                         </div>
                                         <div class="col-md-4">
-                                            Explications 
+                                            Vous trouverez sur mon JSFiddle quelques mini projets comme celui-ci, sur lesquels je 
+                                            travaille pendant mon temps libre pour m'initier à certains concepts de la programmation
+                                            que je n'ai pas l'occasion de voir en cours. Le quiz fait partie des must do quand on commence
+                                            à programmer dans n'iporte quel langage mais surtout en JS. Entre manipulation du DOM, création de 
+                                            structures de données complexes, les narrow functions, structures de codition ce mini projet s'est 
+                                            avéré très instructif. 
                                         </div>
                                         </div>
                                     </div>
@@ -403,11 +427,11 @@
 
 
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" title="Project Name" data-bs-toggle="modal" data-bs-target="#modal4">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
+                        <a class="portfolio-box" title="PHP Leaflet" data-bs-toggle="modal" data-bs-target="#modal4">
+                            <img class="img-fluid" src="assets/img/catalogue.png" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category text-white-50">Projet  d'alternance</div>
+                                <div class="project-name">Catalogue SIG</div>
                             </div>
                         </a>
                     </div>
@@ -417,17 +441,25 @@
                         <div class="modal-dialog modal-fullscreen">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">CRUD en JavaScript et PHP</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="container-fluid">
                                         <div class="row">
                                         <div class="col-md-8">
-                                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
-                                        </div>
+                                            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/Cy-25Y7QMmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                                        </div>
                                         <div class="col-md-4">
-                                            Explications 
+                                            Dans le cadre de ma première année d'alternance à la Région des Hauts-de-France, 
+                                            j'ai eu le plaisir de co-développer cette application CRUD avec M ROUTIER. Ceci 
+                                            est l'aboutissement d'une année d'apprentissage approfondie de le programmation sur une 
+                                            stack complète. En effet, nous sommes partis d'une page blanche, à la création d'une base de données
+                                            "Catalogue" reliée à une interface utilisateur complète. C'est au cours de ce projet que j'ai découvert 
+                                            le sens réél d'une application web dite dynamique et ce, grace au langage PHP. J'ai également pu expérimenter
+                                            la manipulation de données au format GéoJSON avec la librairie Leaflet. Cette base de données a par la suite été
+                                            exploitée pour créer une sorte de tableau de bord qui recense les productions graphiques du SSIG et les présente sous forme 
+                                            de camamberts dynamiques. J'ai aussi compléter mes connaissances en développement Front-end en revoyant le UX Design 
+                                            de différentes pages du site du secteur SIG. 
                                         </div>
                                         </div>
                                     </div>
@@ -439,11 +471,11 @@
 
 
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" title="Project Name" data-bs-toggle="modal" data-bs-target="#modal5">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
+                        <a class="portfolio-box" title="HTML CSS JS" data-bs-toggle="modal" data-bs-target="#modal5">
+                            <img class="img-fluid" src="assets/img/mexico.png" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category text-white-50">Mini  projet</div>
+                                <div class="project-name">Frontend d'un site web</div>
                             </div>
                         </a>
                     </div>
@@ -453,17 +485,26 @@
                         <div class="modal-dialog modal-fullscreen">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">Site du projet tutoré</h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <div class="container-fluid">
                                         <div class="row">
                                         <div class="col-md-8">
-                                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                                            <iframe class="responsive-iframe" src="https://www.youtube.com/embed/U49awz2FO_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                         </div>
                                         <div class="col-md-4">
-                                            Explications 
+                                            Cette vidéo présente le site web que j'ai eu l'honneur de développer afin de mettre
+                                            en valeur les productions du projet. Un site web faisait partie des livrables de ce projet, j'ai 
+                                            donc volontier accepté de le réaliser. Le site en lui-meme n'a pas été le plus dur dans ce projet, 
+                                            il y'a évidemment tout le travai qu'il présente qui a pris plus des trois quarts du temps mais c'est 
+                                            surtout sa position dans la chronologie du processus. En effet, étant la dernier maillon de la chaine, 
+                                            cela a impliqué un gros travail d'intégration de dernière minute. Pour l'anecdote, la dernière version a 
+                                            été produite à 5h du matin alors que la présentation devant le jury se déroulait à 9h le meme jour. Le choix 
+                                            du bon template pour la meilleure UX a du etre fait en amont, ensuite le choix des tchnologies utilisées pour 
+                                            le développement. Nous avons opté pour un template "Admin Dashboard" devloppé en HTML / CSS / Bootstrap 5 / JavaScript et
+                                            Leaflet pour la carte de localisation.
                                         </div>
                                         </div>
                                     </div>
@@ -473,13 +514,12 @@
                     </div>
 
 
-
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" title="Project Name" data-bs-toggle="modal" data-bs-target="#modal6">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                        <a class="portfolio-box" title="API" data-bs-toggle="modal" data-bs-target="#modal6">
+                            <img class="img-fluid" src="assets/img/meteo.png" alt="Site web Mexico" />
                             <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
+                                <div class="project-category text-white-50">Mini  projet</div>
+                                <div class="project-name">Application météo avec API</div>
                             </div>
                         </a>
                     </div>
@@ -497,7 +537,7 @@
                                     <div class="container-fluid">
                                         <div class="row">
                                         <div class="col-md-8">
-                                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
+                                            <img class="img-fluid" src="assets/img/meteoscreen.JPG" alt="..." />
                                         </div>
                                         <div class="col-md-4">
                                             Explications 

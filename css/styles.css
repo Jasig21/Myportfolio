@@ -572,9 +572,13 @@ nav{
 }
 
 .prez{
-  width: 80%;
-  height: 80%;
+  width: fit-content;
+  height: fit-content;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  padding: 2%;
+  margin-left: 10%;
+  background-color: antiquewhite;
+  border-radius: 5%
 }
 
 .presentation{
@@ -583,7 +587,8 @@ nav{
   margin: 10%;
   text-align: center;
   margin-top: 10%;
-  color:white;
+  color: #de421a;
+  line-height: 1.5;
 }
 
 .whiteText{
